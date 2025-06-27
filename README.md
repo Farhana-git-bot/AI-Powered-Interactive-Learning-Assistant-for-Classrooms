@@ -44,7 +44,7 @@ This project is a **multimodal AI assistant** designed to enhance classroom lear
    ```bash
    ./run.sh
 
-##🏗️ System Architecture
+## 🏗️ System Architecture
 
 The app consists of 4 major layers:
 
@@ -53,14 +53,14 @@ Input Handler – Processes voice and text
 Core Processor – Generates responses using Phi-3 LLM and Whisper STT
 Output Handler – Displays output in the GUI
 
-##📚 How It Works
+## 📚 How It Works
 
 -Type a question or click the mic to speak.
 -The system transcribes audio using Whisper.
 -It passes the query (with any relevant PDF context) to the Phi-3 Mini LLM.
 -The model generates a personalized response based on your input and the uploaded document.
 
-##📈 Performance
+## 📈 Performance
 
 | Task                      | Time (avg)      |
 | ------------------------- | --------------- |
