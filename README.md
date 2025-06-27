@@ -1,40 +1,38 @@
-# AI-Powered Interactive Learning Assistant for Classrooms
+ # AI-Powered Interactive Learning Assistant for Classrooms 🎓🤖
 
-![Sol Assistant Interface](https://github.com/yourusername/ai-learning-assistant/blob/main/assets/screenshot.png?raw=true)
+This project is a **multimodal AI assistant** designed to enhance classroom learning. It provides **text and voice-based** support to students and educators, with the ability to understand and reference academic documents. The assistant is optimized for **offline, local execution** using lightweight AI models accelerated by **OpenVINO™**, making it ideal for schools with limited infrastructure.
 
-An OpenVINO-optimized, multimodal AI assistant designed to enhance classroom learning through natural language interactions. Supports voice commands, PDF analysis, and personalized tutoring - all running locally for privacy.
+![screenshot](https://user-images.githubusercontent.com/your-screenshot-placeholder.png) <!-- Replace with your screenshot if available -->
 
-## ✨ Key Features
+---
 
-- **Multimodal Interaction**: Process both text input and voice commands (Whisper STT)
-- **Document Intelligence**: Extract and reference content from uploaded PDFs (PyPDF2)
-- **Privacy-First**: 100% local execution - no data leaves the device
-- **Classroom Optimized**: Runs efficiently on school computers (2GB RAM minimum)
-- **Responsive GUI**: CustomTkinter interface with dark/light mode support
+## ✨ Features
 
-## 🛠️ Technology Stack
+- 🗣️ Voice and text interaction (Whisper + Phi-3 Mini)
+- 📄 PDF-based contextual Q&A (via PyPDF2)
+- 🔒 Fully local, privacy-respecting setup
+- ⚡ OpenVINO-accelerated LLM and STT models
+- 🎛️ Responsive, lightweight GUI (CustomTkinter)
+- 🖥️ Runs on CPUs (no GPU needed)
+- 🧠 Designed for real classrooms, even with low-spec systems
 
-| Component              | Technology Used           |
-|------------------------|---------------------------|
-| Core Language Model    | Phi-3 Mini (4k Instruct)  |
-| Speech Recognition     | Whisper Base EN           |
-| Performance Optimizer  | Intel OpenVINO            | 
-| GUI Framework          | CustomTkinter             |
-| PDF Processing         | PyPDF2                    |
-| Audio Handling         | SoundDevice               |
+---
 
-## 🚀 Quick Start
+## ⚙️ Quick Setup with Scripts
 
-### Prerequisites
-- Python 3.9+
-- 8GB RAM (recommended)
-- 5GB disk space
+### 🔵 Windows
 
-### Installation (Automatic)
+1. Download the following files:
+   - `install.bat`
+   - `run.bat`
+2. Double-click `install.bat` to install dependencies and create a virtual environment.
+3. Once setup completes, double-click `run.bat` to launch the assistant.
 
-#### Windows
-```powershell
-# Run in PowerShell
-iwr -Uri https://raw.githubusercontent.com/yourusername/ai-learning-assistant/main/install.bat -OutFile install.bat
-.\install.bat
-.\run.bat
+### 🟢 Linux / macOS
+
+1. Download:
+   - `install.sh`
+   - `run.sh`
+2. Open terminal and give execution permissions:
+   ```bash
+   chmod +x install.sh run.sh
