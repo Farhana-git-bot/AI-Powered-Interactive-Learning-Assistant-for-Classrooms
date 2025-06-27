@@ -36,3 +36,39 @@ This project is a **multimodal AI assistant** designed to enhance classroom lear
 2. Open terminal and give execution permissions:
    ```bash
    chmod +x install.sh run.sh
+3. Run the installer:
+   ```bash
+   ./install.sh
+
+4. Launch the app:
+   ```bash
+   ./run.sh
+
+##🏗️ System Architecture
+
+The app consists of 4 major layers:
+
+User Interface – Chat window, voice recorder, PDF upload (CustomTkinter)
+Input Handler – Processes voice and text
+Core Processor – Generates responses using Phi-3 LLM and Whisper STT
+Output Handler – Displays output in the GUI
+
+##📚 How It Works
+
+-Type a question or click the mic to speak.
+-The system transcribes audio using Whisper.
+-It passes the query (with any relevant PDF context) to the Phi-3 Mini LLM.
+-The model generates a personalized response based on your input and the uploaded document.
+
+##📈 Performance
+
+| Task                      | Time (avg)      |
+| ------------------------- | --------------- |
+| Voice transcription       | \~1.8 seconds   |
+| Text response generation  | \~2.5–5 seconds |
+| PDF processing (10 pages) | \~6 seconds     |
+| RAM usage                 | < 3GB           |
+| Disk space required       | \~5GB           |
+
+
+
