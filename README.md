@@ -2,7 +2,6 @@
 
 This project is a **multimodal AI assistant** designed to enhance classroom learning. It provides **text and voice-based** support to students and educators, with the ability to understand and reference academic documents. The assistant is optimized for **offline, local execution** using lightweight AI models accelerated by **OpenVINO™**, making it ideal for schools with limited infrastructure.
 
-![screenshot](https://user-images.githubusercontent.com/your-screenshot-placeholder.png) <!-- Replace with your screenshot if available -->
 
 ---
 
