@@ -1,8 +1,4 @@
 # AI-Powered Interactive Learning Assistant
-
-![Demo Screenshot](https://github.com/user-attachments/assets/0172c032-1032-48ba-9cdc-49666e1298ca)  
-*(Replace with actual screenshot of your application)*
-
 An intelligent classroom assistant that provides real-time, personalized academic support through natural language interactions. Built with OpenVINO-optimized AI models for efficient local operation.
 
 ## Key Features
