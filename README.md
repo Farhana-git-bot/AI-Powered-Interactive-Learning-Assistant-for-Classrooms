@@ -141,7 +141,6 @@ Output Handler – Displays output in the GUI
 | Disk space required       | \~5GB           |
 
 ## 🎥 Demo
-
 👉 [Click here to watch the demo video](https://raw.githubusercontent.com/Farhana-git-bot/AI-Powered-Interactive-Learning-Assistant-for-Classrooms/main/demo.mp4)
 
 
