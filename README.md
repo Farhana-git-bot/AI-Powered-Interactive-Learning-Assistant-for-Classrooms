@@ -69,5 +69,8 @@ Output Handler – Displays output in the GUI
 | RAM usage                 | < 3GB           |
 | Disk space required       | \~5GB           |
 
+## 🎥 Demo
+
+<video src="assets/demo.mp4" controls width="700"></video>
 
 
