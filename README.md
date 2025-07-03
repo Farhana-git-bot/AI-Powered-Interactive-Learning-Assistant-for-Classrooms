@@ -71,6 +71,7 @@ Output Handler – Displays output in the GUI
 
 ## 🎥 Demo
 
-<video src="assets/demo.mp4" controls width="700"></video>
+👉 [Click here to watch the demo video](assets/demo.mp4)
+
 
 
